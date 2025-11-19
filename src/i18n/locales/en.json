@@ -1,7 +1,8 @@
 {
   "nav": {
     "home": "Home",
-    "about": "About"
+    "about": "About",
+    "counter": "Counter"
   },
   "home": {
     "title": "Welcome to Home Page",
@@ -10,6 +11,14 @@
   "about": {
     "title": "About Us",
     "description": "This is the about page"
+  },
+  "counter": {
+    "title": "Counter",
+    "currentValue": "Current Value",
+    "increment": "Increment",
+    "decrement": "Decrement",
+    "reset": "Reset",
+    "addAmount": "Add Amount"
   },
   "language": {
     "switch": "Language",

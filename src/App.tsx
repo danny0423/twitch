@@ -3,6 +3,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
+import Counter from './pages/Counter/Counter';
 
 function App(): ReactElement {
   const { t, i18n } = useTranslation();
@@ -17,6 +18,7 @@ function App(): ReactElement {
       <nav>
         <Link to="/">{t('nav.home')}</Link>
         <Link to="/about">{t('nav.about')}</Link>
+        <Link to="/counter">{t('nav.counter')}</Link>
         <div style={{ marginLeft: 'auto' }}>
           <select
             value={i18n.language}
@@ -31,6 +33,7 @@ function App(): ReactElement {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/counter" element={<Counter />} />
       </Routes>
     </div>
   );
