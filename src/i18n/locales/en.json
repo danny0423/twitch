@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About"
+  },
+  "home": {
+    "title": "Welcome to Home Page",
+    "description": "This is the home page"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "This is the about page"
+  },
+  "language": {
+    "switch": "Language",
+    "en": "English",
+    "zh-TW": "繁體中文"
+  }
+}

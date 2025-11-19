@@ -1,7 +1,15 @@
-import { ReactElement } from 'react';
+import { type ReactElement } from 'react';
+import { useTranslation } from 'react-i18next';
 
 function Home(): ReactElement {
-  return <h1>Home Page</h1>;
+  const { t } = useTranslation();
+
+  return (
+    <div>
+      <h1>{t('home.title')}</h1>
+      <p>{t('home.description')}</p>
+    </div>
+  );
 }
 
 export default Home;

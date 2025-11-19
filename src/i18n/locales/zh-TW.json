@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "首頁",
+    "about": "關於"
+  },
+  "home": {
+    "title": "歡迎來到首頁",
+    "description": "這是首頁"
+  },
+  "about": {
+    "title": "關於我們",
+    "description": "這是關於頁面"
+  },
+  "language": {
+    "switch": "語言",
+    "en": "English",
+    "zh-TW": "繁體中文"
+  }
+}
