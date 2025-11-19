@@ -1,6 +1,6 @@
-import React from 'react';
+import { ReactElement } from 'react';
 
-function About(): React.ReactElement {
+function About(): ReactElement {
   return <h1>About Page</h1>;
 }
 
