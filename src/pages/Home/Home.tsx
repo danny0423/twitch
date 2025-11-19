@@ -1,13 +1,11 @@
 import { type ReactElement } from 'react';
-import { useTranslation } from 'react-i18next';
+import { tr } from '../../i18n/config';
 
 function Home(): ReactElement {
-  const { t } = useTranslation();
-
   return (
     <div>
-      <h1>{t('home.title')}</h1>
-      <p>{t('home.description')}</p>
+      <h1>{tr('home.title')}</h1>
+      <p>{tr('home.description')}</p>
     </div>
   );
 }
